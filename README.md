@@ -11,9 +11,6 @@
   <li><a href="#ustanovka">Установка</a></li>
   <li><a href="#nastroyka">Настройка</a></li>
   <li><a href="#zapusk">Запуск</a></li>
-  <li><a href="#funkcional">Функционал</a></li>
-  <li><a href="#tehnologii">Технологии</a></li>
-  <li><a href="#kontakty">Контакты</a></li>
 </ul>
 
 <h2 id="opisanie">Описание</h2>
