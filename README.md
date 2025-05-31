@@ -1,18 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-<meta charset="UTF-8" />
-<title>README — Laravel Shop Application</title>
-<style>
-  body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 2rem auto; padding: 0 1rem; color: #333; }
-  h1, h2, h3 { color: #2c3e50; }
-  pre { background: #f4f4f4; padding: 1rem; border-radius: 5px; overflow-x: auto; }
-  code { font-family: monospace; background: #eee; padding: 2px 4px; border-radius: 3px; }
-  ul { margin-bottom: 1rem; }
-  a { color: #2980b9; text-decoration: none; }
-  a:hover { text-decoration: underline; }
-</style>
-</head>
 <body>
 
 <h1>Laravel Shop Application</h1>
