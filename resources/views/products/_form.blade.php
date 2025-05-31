@@ -6,12 +6,12 @@
 
     <div class="mb-3">
         <label>Название</label>
-        <input name="ProductName" class="form-control" value="{{ old('ProductName', $product->ProductName) }}">
+        <input name="ProductName" required class="form-control" value="{{ old('ProductName', $product->ProductName) }}">
     </div>
 
     <div class="mb-3">
         <label>Категория</label>
-        <select name="CategoryId" class="form-select">
+        <select name="CategoryId" required class="form-select">
             @foreach($categories as $cat)
                 <option value="{{ $cat->id }}" @selected(old('CategoryId', $product->CategoryId) == $cat->id)>
                     {{ $cat->Name }}
@@ -22,12 +22,12 @@
 
     <div class="mb-3">
         <label>Описание</label>
-        <textarea name="Description" class="form-control">{{ old('Description', $product->Description) }}</textarea>
+        <textarea name="Description"  class="form-control">{{ old('Description', $product->Description) }}</textarea>
     </div>
 
     <div class="mb-3">
         <label>Цена (₽)</label>
-        <input type="number" step="0.01" name="PriceRub"
+        <input type="number" step="0.01" required name="PriceRub"
                value="{{ old('PriceRub', $product->PriceRub ?? '0.00') }}" class="form-control">
     </div>
 
